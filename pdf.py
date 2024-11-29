@@ -646,7 +646,7 @@ def pdf_to_audio():
 st.header(":blue[PDF] :green[Tools]")
 
 st.info("Choose your Operation")
-option = st.radio("CO",["None","Merge Pdf","Delete Pages in Pdf","Extract Image in Pdf","Lock Pdf","Split Pdf"],label_visibility="collapsed")
+option = st.radio("CO",["None","Merge Pdf","Delete Pages in Pdf","Extract Image in Pdf","Lock Pdf","Split Pdf",],label_visibility="collapsed")
 if option:
     st.write(option)
 
@@ -656,7 +656,7 @@ if option:
     if option == "Delete Pages in Pdf":
         del_pages()
     
-   # if option == "Obtain Pdf as Image":
+  #  if option == "Obtain Pdf as Image":
        # pdf_to_images()
     
     if option == "Extract Image in Pdf":
@@ -668,8 +668,8 @@ if option:
     if option == "Split Pdf":
         extract_pg_as_pdf()
 
-    #if option == "Pdf to Audio":
-        # pdf_to_audio()
+   # if option == "Pdf to Audio":
+       #  pdf_to_audio()
         
 
     
