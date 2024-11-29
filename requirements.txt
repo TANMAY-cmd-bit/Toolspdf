@@ -1,6 +1,7 @@
 streamlit 
 playsound==1.2.2 
-gtts PyPDF2 
+gtts
+PyPDF2 
 Pillow 
 pymupdf 
 pyperclip 
